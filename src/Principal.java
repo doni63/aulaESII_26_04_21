@@ -14,6 +14,16 @@ public class Principal {
 		retangulo1.calculoPerimetro();
 		retangulo1.imprimiArea();
 		retangulo1.imprimiPerimetro();
+                
+                Circunferencia circunferencia1 = new Circunferencia();
+		
+		System.out.println("Raio: ");
+		circunferencia1.raio = dadosDesenhoPlano.nextDouble();
+		
+		circunferencia1.calculoAreaCirc();
+		circunferencia1.calculoPerimetroCirc();
+		circunferencia1.imprimiAreaCirc();
+		circunferencia1.imprimiPerimetroCirc();
 		
 		dadosDesenhoPlano.close();
 	}
