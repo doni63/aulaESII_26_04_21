@@ -11,7 +11,7 @@ public class Retangulo {
 	}
 	
 	void imprimiArea() {
-		System.out.println("Area = " + area() );
+		System.out.println("Area do retângulo = " + area() );
 	}
 	
 	void calculoPerimetro() {
@@ -23,6 +23,6 @@ public class Retangulo {
 	}
 	
 	void imprimiPerimetro() {
-		System.out.println("Perimetro = " + perimetro());
+		System.out.println("Perimetro do retângulo = " + perimetro());
 	}
 }
