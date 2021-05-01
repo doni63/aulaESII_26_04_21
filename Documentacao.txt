@@ -1,0 +1,50 @@
+Dominio do negocio
+==================
+A area de marcenaria na loja de ferramentas e materiais Cara de Pau.
+Esta loja trabalha com diversos clientes como marceneiros e clientes comuns.
+Lá se vende ferramentas e materiais como madeiras fórmicas e diversos.
+
+
+Problema /Oportunidade
+======================
+Atualmente, a loja utiliza da calculadora, e a pessoa calcula no papel
+para dar o tamanho correto da madeira, tabua ou fórmica. Assim muitas
+vezes não trazendo um resultado correto.
+
+Quais são os problemas?
+Nesse modo como é calculado o material, muitas vezes o cliente leva
+quantidade incorreta, assim voltando com reclamação e constragimento,
+ou até disperdício de material trazendo prejuizo a loja.
+
+
+Stakeholder
+===========
+Vendedor
+Marceneiro
+Gerente
+
+
+Vocabulario
+===========
+Pi - Na matemática, o número \pi é uma proporção numérica definida
+pela relação entre o perímetro de uma circunferência e seu diâmetro.
+
+
+Atividade de negocio
+====================
+Calcular área de um retângulo
+Calcular perímetro de um retangulo
+Calcular área de uma circunferencia
+Calcular perimetro de uma circunferência
+
+Processo do negocio
+===================
+
+
+Regra de negocio
+================
+RN0001 - 
+
+Requisitos
+==========
+HU0001 - 
