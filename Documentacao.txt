@@ -39,12 +39,28 @@ Calcular perimetro de uma circunferência
 
 Processo do negocio
 ===================
-
+Venda de produto: Ao vender o produto o usuário (vendedor ou gerente) insere as medidas da base e altura para o cálculo da área (ver RN0001) e perímetro (RN0002) do retângulo (quantidade de material em metro quadrados a ser vendido). Para medidas em forma de circunferência o usuário deve inserir o raio a ser utilizado para o cálculo da área (ver RN0003) e perímetro (ver RN0004)
 
 Regra de negocio
 ================
-RN0001 - 
+RN0001 - Cálculo da área do retângulo
+Para calcular a área do retângulo deve multiplicar a base pela altura
+area = base * altura
+
+RN0002 - Cálculo do perímetro do retângulo
+Para calcular o perímetro do retângulo deve multiplicar por 2 a soma da base pela altura
+perimetro = 2*(base + altura)
+
+RN0003 - Cálculo da área da circunferência
+Para calcular a área da circunferência deve multiplicar PI por raio ao quadrado
+area da circunferencia = Pi * (raio * raio)
+
+RN0004 - Cálculo do perímetro da circunferência
+Para calcular o perímetro da circunferência deve multiplicar 2 por PI e raio
+perímetro da circunferência = 2*PI*Raio
 
 Requisitos
 ==========
-HU0001 - 
+HU0001 - Eu como usuário, desejo calcular a área e o perímetro de um retângulo para a quantidade do material necessário a venda.
+
+HU0002 - Eu como usuário, desejo calcular a área e o perímetro de uma circunferência para a quantidade do material necessário a venda.
