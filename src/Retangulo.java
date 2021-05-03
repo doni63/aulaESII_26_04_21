@@ -1,9 +1,9 @@
 
 public class Retangulo {
-	double base, largura, area, perimetro;
+	double base, altura, area, perimetro;
 	
 	void calculoArea() {
-		area = base * largura;
+		area = base * altura;
 	}
 	
 	double area() {
@@ -15,7 +15,7 @@ public class Retangulo {
 	}
 	
 	void calculoPerimetro() {
-		perimetro = (2*base) + (2*largura);
+		perimetro = 2*(base + altura);
 	}
 	
 	double perimetro() {
